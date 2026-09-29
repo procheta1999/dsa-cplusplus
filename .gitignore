@@ -1,0 +1,10 @@
+# macOS debug symbols and compiled output
+*.dSYM/
+*.out
+*.exe
+*.o
+
+# Extensionless executables generated beside the root C++ files
+/*
+!/*.*
+!/*/
