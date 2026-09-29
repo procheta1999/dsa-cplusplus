@@ -1,10 +1,9 @@
-# macOS debug symbols and compiled output
-*.dSYM/
-*.out
-*.exe
-*.o
+# Ignore everything by default
+*
 
-# Extensionless executables generated beside the root C++ files
-/*
-!/*.*
-!/*/
+# Traverse directories so C++ files can be included anywhere
+!*/
+!*.cpp
+
+# Include VS Code configuration
+!/.vscode/**
